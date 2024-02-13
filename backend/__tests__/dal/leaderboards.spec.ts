@@ -161,7 +161,7 @@ describe("LeaderboardsDal", () => {
         "15",
         "english",
         0
-      )) as MonkeyTypes.LeaderboardEntry[];
+      )) as SharedTypes.LeaderboardEntry[];
 
       //THEN
       const lb = result.map((it) => _.omit(it, ["_id"]));
@@ -197,7 +197,7 @@ describe("LeaderboardsDal", () => {
         "15",
         "english",
         0
-      )) as MonkeyTypes.LeaderboardEntry[];
+      )) as SharedTypes.LeaderboardEntry[];
 
       //THEN
       const lb = result.map((it) => _.omit(it, ["_id"]));
@@ -229,7 +229,7 @@ describe("LeaderboardsDal", () => {
         "15",
         "english",
         0
-      )) as MonkeyTypes.LeaderboardEntry[];
+      )) as SharedTypes.LeaderboardEntry[];
 
       //THEN
       const lb = result.map((it) => _.omit(it, ["_id"]));
