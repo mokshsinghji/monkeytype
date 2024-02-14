@@ -72,6 +72,10 @@ body::before {
   text-shadow: none;
 }
 
+#words .word.error letter:not(.correct):not(.incorrect) {
+  color: var(--current-color);
+}
+
 #words.colorfulMode .word letter.incorrect:not(.extra),
 #words .word letter.incorrect:not(.extra) {
   color: var(--current-color);
